@@ -37,7 +37,7 @@ background-image: linear-gradient(225deg, #ff20a0 0%, #7f51a7 50%, #291ea7 100%)
 }
 .srce>img{
     position: absolute;
-    bottom: 20px;
+    bottom: 0;
     max-width: 210px;
 }
 .teamo>img{
