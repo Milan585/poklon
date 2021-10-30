@@ -15,7 +15,7 @@ background-image: linear-gradient(225deg, #ff20a0 0%, #7f51a7 50%, #291ea7 100%)
     position: relative;
     top: 40%;
     text-align: center;
-    font-size: 18px;
+    font-size: 38px;
     color: #fff;
 }
 .txt-main{
@@ -92,7 +92,6 @@ background-image: linear-gradient(225deg, #ff20a0 0%, #7f51a7 50%, #291ea7 100%)
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
     -ms-flex: 100%;
@@ -109,4 +108,21 @@ background-image: linear-gradient(225deg, #ff20a0 0%, #7f51a7 50%, #291ea7 100%)
 .da{
     font-family: 'Dancing Script', cursive;
     margin-top: 50px;
+}
+.JS{
+    position: relative;
+    height: 30vh;
+}
+button{
+    font-size: 30px;
+    position: absolute;
+    background: #ff20a0;
+    color: #fff;
+    width: 200px;
+    height: 60px;
+    top: 25%;
+    left: 24%;
+    border-radius: 10px;
+    transform: skew(-17deg, 9deg);
+    box-shadow: 13px 11px 70px 5px #fff;
 }
