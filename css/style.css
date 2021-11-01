@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 .pocetna{
@@ -15,10 +16,10 @@ background-image: linear-gradient(225deg, #ff20a0 0%, #7f51a7 50%, #291ea7 100%)
     position: relative;
     top: 40%;
     text-align: center;
+    font-size: 38px;
     color: #fff;
 }
 .txt-main{
-    font-size: 30px;
     text-shadow: 0 0 20px rgb(0, 0, 0);
 }
 .txt-animation{
@@ -35,7 +36,7 @@ background-image: linear-gradient(225deg, #ff20a0 0%, #7f51a7 50%, #291ea7 100%)
         transform:translatey(0);
     }
 }
-.srce>img{
+.srce>a>img{
     position: absolute;
     bottom: 0;
     max-width: 210px;
@@ -102,12 +103,16 @@ background-image: linear-gradient(225deg, #ff20a0 0%, #7f51a7 50%, #291ea7 100%)
 .tekst{
     padding: 20px;
     text-align: center;
-    color: #fff;
     font-size: 40px;
 }
 .da{
     font-family: 'Dancing Script', cursive;
-    margin-top: 50px;
+    margin-top: 45px;
+    color: #fff;
+}
+.ip{
+    margin-bottom: 15px;
+    color: #00c6ff;
 }
 .JS{
     position: relative;
@@ -125,4 +130,20 @@ button{
     border-radius: 10px;
     transform: skew(-17deg, 9deg);
     box-shadow: 13px 11px 70px 5px #fff;
+}
+.paragraf{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+.strela{
+    width: 50px;
+    background: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 15px;
 }

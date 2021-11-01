@@ -1,0 +1,49 @@
+body{
+    background-color: #ff20a0;
+background-image: linear-gradient(225deg, #cd0086 0%, #7f51a7 50%, #291ea7 100%);
+}
+a{
+    font-size: 30px;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 5px 5px 0px black;
+}
+h1{
+    margin-top: 100px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 3px 3px 10px #000;
+    font-size: 27px;
+}
+.strela{
+    width: 50px;
+    background: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    transform: translate(-50%);
+
+}
+.nmp{
+    position: relative;
+    top: 0;
+}
+p{
+    text-align: center;
+    color: #00ff87;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive
+}
+.mis{
+    margin-top: 100px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 3px 3px 10px #000;
+    font-size: 27px;
+}
+.popravak{
+    margin-bottom: -100px;
+}
